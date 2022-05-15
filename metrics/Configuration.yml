@@ -1,0 +1,9 @@
+Pairs:
+  Dataset:
+    - testHMI
+  GTFolder:          
+    - "/mnt/disk100T/dou/SPSR-master/data/dataset/HMIHR/"
+  SRFolder:  
+    - "/mnt/disk100T/dou/SPSR-test/SPSR/results/SPSR/HMI-80000-ssimloss/"
+Name: Test
+Echo: True

@@ -1,0 +1,17 @@
+2022-04-18 13:29:09,685 - evaluate_sr_results.py[line:85] - INFO: Init...
+2022-04-18 13:29:09,686 - evaluate_sr_results.py[line:86] - INFO: SRFolder - ['testHMI']
+2022-04-18 13:29:09,686 - evaluate_sr_results.py[line:87] - INFO: GTFolder - ['/mnt/disk100T/dou/SPSR-master/data/dataset/HMIHR/']
+2022-04-18 13:29:09,686 - evaluate_sr_results.py[line:88] - INFO: SRFolder - ['/mnt/disk100T/dou/SPSR-test/SPSR/results/SPSR/HMI-80000-ssimloss/']
+2022-04-18 13:29:09,686 - evaluate_sr_results.py[line:89] - INFO: Metric - ['Ma', 'NIQE', 'PI', 'PSNR', 'SSIM', 'MSE', 'RMSE', 'LPIPS']
+2022-04-18 13:29:09,686 - evaluate_sr_results.py[line:90] - INFO: Name - Test
+2022-04-18 13:29:09,686 - evaluate_sr_results.py[line:91] - INFO: Echo - True
+2022-04-18 13:29:09,694 - evaluate_sr_results.py[line:96] - INFO: Calculating testHMI...
+2022-04-18 17:13:57,633 - evaluate_sr_results.py[line:113] - INFO: [testHMI]    PI - 7.258674162197755
+2022-04-18 17:13:57,634 - evaluate_sr_results.py[line:114] - INFO: [testHMI]    Ma - 3.9172099791061887
+2022-04-18 17:13:57,635 - evaluate_sr_results.py[line:115] - INFO: [testHMI]  NIQE - 8.4345583035017
+2022-04-18 17:13:57,635 - evaluate_sr_results.py[line:116] - INFO: [testHMI]   MSE - 15.368466786573764
+2022-04-18 17:13:57,635 - evaluate_sr_results.py[line:117] - INFO: [testHMI]  RMSE - 3.9202636118727736
+2022-04-18 17:13:57,635 - evaluate_sr_results.py[line:118] - INFO: [testHMI]  PSNR - 36.56709405361879
+2022-04-18 17:13:57,635 - evaluate_sr_results.py[line:119] - INFO: [testHMI]  SSIM - 0.9635572965856956
+2022-04-18 17:13:57,635 - evaluate_sr_results.py[line:120] - INFO: [testHMI] LPIPS - 0.09305815
+2022-04-18 17:13:57,789 - evaluate_sr_results.py[line:125] - INFO: Done.

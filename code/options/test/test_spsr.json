@@ -1,0 +1,33 @@
+{
+  "name": "SPSR"
+  , "model": "spsr"
+  , "scale": 4
+  , "gpu_ids": [6,7]
+
+  , "datasets": {
+    "test_1": { 
+      "name": "HMI-80000-ssimloss"
+      , "mode": "LR"
+      // , "dataroot_HR": "/mnt/disk100T/dou/SPSR-test/data/dataset/clipHMI/HR/" // needed in "LRHR" mode
+      , "dataroot_LR":"/mnt/disk100T/dou/SPSR-master/data/dataset/LR/"
+    }
+  }
+  , "path": {
+    "root": "../SPSR" // change to your own root path
+    //, "resume_state": "../experiments/002_RRDB_ESRGAN_x4_DIV2K/training_state/65000.state"
+    , "pretrain_model_G": "/mnt/disk100T/dou/SPSR-test/SPSR/experiments/SPSR/models/80000_G.pth"
+  }
+
+  , "network_G": {
+    "which_model_G": "spsr_net"
+    , "norm_type": null
+    , "mode": "CNA"
+    , "nf": 64
+    , "nb": 23
+    , "in_nc": 3
+    , "out_nc": 3
+
+    , "gc": 32
+    , "group": 1
+  }
+}
